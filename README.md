@@ -40,8 +40,8 @@ metadata:
     app: geminabox
 spec:
   ports:
-  - port: 8080
-    targetPort: 8080
+  - port: 80
+    targetPort: 80
   selector:
     app: geminabox
 
@@ -108,7 +108,7 @@ spec:
       paths:
       - backend:
           serviceName: geminabox
-          servicePort: 8080
+          servicePort: 80
   tls:
   - hosts:
     - geminabox.example.com
