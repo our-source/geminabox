@@ -84,8 +84,6 @@ spec:
         volumeMounts:
         - mountPath: /data
           name: gemdata-rook-ceph-block
-      imagePullSecrets:
-      - name: docker-registry
       volumes:
       - name: gemdata-rook-ceph-block
         persistentVolumeClaim:
