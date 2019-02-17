@@ -1,0 +1,18 @@
+image: debian:stable-slim
+
+stages:
+  - build
+
+services:
+  - docker:dind
+
+before_script:
+  - apt-get -qq update
+  - apt-get -qqy install --no-install-recommends ca-certificates curl
+
+build:
+  stage: build
+  script:
+    - "curl --silent -H \"Content-Type: application/json\" --data '{\"source_type\": \"Branch\", \"source_name\": \"development\"}' -X POST $DOCKER_HUB_BUILD_TRIGGER"
+  only:
+    - nightly
