@@ -1,14 +1,7 @@
-image: debian:stable-slim
+image: curlimages/curl:latest
 
 stages:
   - build
-
-services:
-  - docker:dind
-
-before_script:
-  - apt-get -qq update
-  - apt-get -qqy install --no-install-recommends ca-certificates curl
 
 build:
   stage: build
