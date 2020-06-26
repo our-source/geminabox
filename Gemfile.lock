@@ -2,9 +2,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     builder (3.2.4)
-    faraday (0.17.1)
+    faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
-    geminabox (1.1.1)
+    geminabox (1.2.0)
       builder
       faraday
       httpclient (>= 2.2.7)
@@ -13,16 +13,18 @@ GEM
       sinatra (>= 1.2.7)
     httpclient (2.8.3)
     multipart-post (2.1.1)
-    mustermann (1.0.3)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
     nesty (1.0.2)
-    rack (2.0.8)
-    rack-protection (2.0.7)
+    rack (2.2.3)
+    rack-protection (2.0.8.1)
       rack
     reentrant_flock (0.1.1)
-    sinatra (2.0.7)
+    ruby2_keywords (0.0.2)
+    sinatra (2.0.8.1)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.7)
+      rack-protection (= 2.0.8.1)
       tilt (~> 2.0)
     tilt (2.0.10)
 
@@ -33,4 +35,4 @@ DEPENDENCIES
   geminabox
 
 BUNDLED WITH
-   1.17.3
+   2.1.4
