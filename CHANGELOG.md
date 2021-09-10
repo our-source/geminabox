@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.3
+
+* Update gems
+
 ## v1.0.2
 
 * Update gems with security fixes
