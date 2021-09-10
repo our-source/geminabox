@@ -2,14 +2,32 @@ GEM
   remote: https://rubygems.org/
   specs:
     builder (3.2.4)
-    faraday (1.0.1)
+    faraday (1.7.1)
+      faraday-em_http (~> 1.0)
+      faraday-em_synchrony (~> 1.0)
+      faraday-excon (~> 1.1)
+      faraday-httpclient (~> 1.0.1)
+      faraday-net_http (~> 1.0)
+      faraday-net_http_persistent (~> 1.1)
+      faraday-patron (~> 1.0)
+      faraday-rack (~> 1.0)
       multipart-post (>= 1.2, < 3)
-    geminabox (1.2.0)
+      ruby2_keywords (>= 0.0.4)
+    faraday-em_http (1.0.0)
+    faraday-em_synchrony (1.0.0)
+    faraday-excon (1.1.0)
+    faraday-httpclient (1.0.1)
+    faraday-net_http (1.0.1)
+    faraday-net_http_persistent (1.2.0)
+    faraday-patron (1.0.0)
+    faraday-rack (1.0.0)
+    geminabox (1.4.1)
       builder
       faraday
       httpclient (>= 2.2.7)
       nesty
       reentrant_flock
+      rss
       sinatra (>= 1.2.7)
     httpclient (2.8.3)
     multipart-post (2.1.1)
@@ -17,14 +35,17 @@ GEM
       ruby2_keywords (~> 0.0.1)
     nesty (1.0.2)
     rack (2.2.3)
-    rack-protection (2.0.8.1)
+    rack-protection (2.1.0)
       rack
     reentrant_flock (0.1.1)
-    ruby2_keywords (0.0.2)
-    sinatra (2.0.8.1)
+    rexml (3.2.5)
+    rss (0.2.9)
+      rexml
+    ruby2_keywords (0.0.5)
+    sinatra (2.1.0)
       mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.8.1)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
       tilt (~> 2.0)
     tilt (2.0.10)
 
