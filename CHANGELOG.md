@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.0
+
+* Bump to ruby version 3.0
+
 ## v1.0.3
 
 * Update gems
