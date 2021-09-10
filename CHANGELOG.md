@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.2.0
+
+* Use Puma as handler
+
 ## v1.1.0
 
 * Bump to ruby version 3.0
