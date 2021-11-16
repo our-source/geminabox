@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.3.0
+
+* Update Puma (CVE-2021-41136)
+
 ## v1.2.0
 
 * Use Puma as handler
