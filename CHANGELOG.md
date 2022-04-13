@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.0
+
+* Update puma (CVE-2022-24790)
+
 ## v1.4.0
 
 * Update Puma (CVE-2022-23634)
