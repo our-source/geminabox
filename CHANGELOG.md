@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.1
+
+* Update rack (CVE-2022-30123)
+
 ## 1.5.0
 
 * Update puma (CVE-2022-24790)
