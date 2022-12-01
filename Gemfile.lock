@@ -15,26 +15,26 @@ GEM
       rss
       sinatra (>= 1.2.7)
     httpclient (2.8.3)
-    mustermann (1.1.1)
+    mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     nesty (1.0.2)
     nio4r (2.5.8)
     puma (5.6.4)
       nio4r (~> 2.0)
-    rack (2.2.3.1)
-    rack-protection (2.2.0)
+    rack (2.2.4)
+    rack-protection (3.0.4)
       rack
     reentrant_flock (0.1.1)
     rexml (3.2.5)
     rss (0.2.9)
       rexml
     ruby2_keywords (0.0.5)
-    sinatra (2.2.0)
-      mustermann (~> 1.0)
-      rack (~> 2.2)
-      rack-protection (= 2.2.0)
+    sinatra (3.0.4)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.4)
       tilt (~> 2.0)
-    tilt (2.0.10)
+    tilt (2.0.11)
 
 PLATFORMS
   ruby
