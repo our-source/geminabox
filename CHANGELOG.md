@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.6.0
+
+* Update puma 6.0.0
+* Update sinatra (CVE-2022-36359)
+
 ## 1.5.1
 
 * Update rack (CVE-2022-30123)
