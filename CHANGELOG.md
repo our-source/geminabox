@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.1
+
+* Update gems
+
 ## 1.6.0
 
 * Update puma 6.0.0
