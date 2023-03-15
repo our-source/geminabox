@@ -67,7 +67,7 @@ spec:
     spec:
       containers:
       - name: geminabox
-        image: oursource/geminabox:v1.0.0
+        image: oursource/geminabox:v1.7.0
         imagePullPolicy: IfNotPresent
         resources:
           requests:
