@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.7.0
+
+* Update puma 6.1.1
+* Update rack (CVE-2023-27530)
+
 ## 1.6.1
 
 * Update gems
