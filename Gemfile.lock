@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     builder (3.2.4)
-    faraday (2.7.4)
+    faraday (2.7.10)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
@@ -17,10 +17,10 @@ GEM
     mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
     nesty (1.0.2)
-    nio4r (2.5.8)
-    puma (6.1.1)
+    nio4r (2.5.9)
+    puma (6.3.1)
       nio4r (~> 2.0)
-    rack (2.2.6.4)
+    rack (2.2.8)
     rack-protection (2.2.4)
       rack
     reentrant_flock (0.1.1)
@@ -30,14 +30,14 @@ GEM
       rack (~> 2.2)
       rack-protection (= 2.2.4)
       tilt (~> 2.0)
-    tilt (2.1.0)
+    tilt (2.2.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   geminabox
-  puma (>= 6.1.1)
+  puma (>= 6.3.1)
 
 BUNDLED WITH
    2.3.15
