@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.7.1
+
+* Update puma 6.3.1
+
 ## 1.7.0
 
 * Update puma 6.1.1
