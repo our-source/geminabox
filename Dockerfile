@@ -1,4 +1,4 @@
-FROM ruby:3.0
+FROM docker.io/ruby:3.3-bookworm
 
 RUN bundle config --global frozen 1
 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.0
+
+* Update docker image to 3.3
+
 ## 1.7.2
 
 * Update puma 6.4.2
