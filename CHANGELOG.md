@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.1
+
+* Update rack to 2.2.8.1 for CVE-2024-26146, CVE-2024-25126, CVE-2024-26141
+
 ## 1.8.0
 
 * Update docker image to 3.3
