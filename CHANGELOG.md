@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.9.0
+
+* Lower Ruby version because in 3.3 the rubygems/indexer.rb file is missing
+
 ## 1.8.1
 
 * Update rack to 2.2.8.1 for CVE-2024-26146, CVE-2024-25126, CVE-2024-26141
