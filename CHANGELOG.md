@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.9.1
+
+* Update puma to 6.4.3
+
 ## 1.9.0
 
 * Lower Ruby version because in 3.3 the rubygems/indexer.rb file is missing
