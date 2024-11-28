@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.10.0
+
+* Switch back to Ruby 3.3 by adding rubygems-generate_index
+* Bump puma to 6.5.0
+
 ## 1.9.1
 
 * Update puma to 6.4.3
