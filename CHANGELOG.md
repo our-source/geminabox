@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.10.1
+
+* CVE-2025-27610 Local file inclusion in Rack::Static.
+* CVE-2025-27111 Possible Log Injection in Rack::Sendfile.
+* CVE-2025-25184 Possible Log Injection in Rack::CommonLogger.
+
 ## 1.10.0
 
 * Switch back to Ruby 3.3 by adding rubygems-generate_index
