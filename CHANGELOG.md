@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.10.2
+
+* CVE-2025-46727 Unbounded parameter parsing in Rack::QueryParser can lead to memory exhaustion.
+
 ## 1.10.1
 
 * CVE-2025-27610 Local file inclusion in Rack::Static.
