@@ -29,7 +29,7 @@ GEM
     nio4r (2.7.4)
     puma (6.6.0)
       nio4r (~> 2.0)
-    rack (2.2.14)
+    rack (2.2.18)
     rack-protection (2.2.4)
       rack
     reentrant_flock (0.1.1)
