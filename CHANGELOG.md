@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.11.0
+
+* Update base image to use trixie
+* Update puma to 7.0.4
+
 ## 1.10.2
 
 * CVE-2025-46727 Unbounded parameter parsing in Rack::QueryParser can lead to memory exhaustion.
