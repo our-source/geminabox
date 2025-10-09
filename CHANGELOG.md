@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.11.1
+
+* Update rack 2.2.19 CVE-2025-61772, CVE-2025-61771, CVE-2025-61770
+
 ## 1.11.0
 
 * Update base image to use trixie
