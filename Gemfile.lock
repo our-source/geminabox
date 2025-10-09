@@ -18,7 +18,7 @@ GEM
       sinatra (~> 2.0)
     httpclient (2.9.0)
       mutex_m
-    json (2.15.0)
+    json (2.15.1)
     logger (1.7.0)
     mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
@@ -29,7 +29,7 @@ GEM
     nio4r (2.7.4)
     puma (7.0.4)
       nio4r (~> 2.0)
-    rack (2.2.18)
+    rack (2.2.19)
     rack-protection (2.2.4)
       rack
     reentrant_flock (0.1.1)
@@ -42,7 +42,7 @@ GEM
       rack-protection (= 2.2.4)
       tilt (~> 2.0)
     tilt (2.6.1)
-    uri (1.0.3)
+    uri (1.0.4)
 
 PLATFORMS
   x86_64-linux
