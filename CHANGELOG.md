@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.11.2
+
+* Update faraday from 2.14.0 to 2.14.1 (security)
+
 ## 1.11.1
 
 * Update rack 2.2.19 CVE-2025-61772, CVE-2025-61771, CVE-2025-61770
