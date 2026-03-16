@@ -1,4 +1,4 @@
-FROM docker.io/ruby:3.3-trixie
+FROM docker.io/ruby:4.0
 
 RUN bundle config --global frozen 1
 
@@ -10,4 +10,4 @@ RUN bundle install
 
 EXPOSE 80
 
-ENTRYPOINT ["bundle", "exec", "rackup", "--host", "0.0.0.0", "--port", "80"]
+ENTRYPOINT ["rackup", "--host", "0.0.0.0", "--port", "80"]
