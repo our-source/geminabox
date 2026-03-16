@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.0
+
+* Update geminabox 3.0.0
+* Rack CVE-2025-61780, CVE-2025-61919, CVE-2026-25500, CVE-2026-22860
+
 ## 1.11.2
 
 * Update faraday from 2.14.0 to 2.14.1 (security)
