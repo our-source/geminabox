@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
-gem 'geminabox'
-gem 'puma', '>= 7.0.4'
-gem 'rubygems-generate_index', '>= 1.1.3'
+gem 'geminabox', '>= 3.0.0'
+gem 'puma', '>= 7.2.0'
+gem 'rackup', '>= 2.3.1'
