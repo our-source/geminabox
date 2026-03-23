@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.1
+
+* Update json CVE-2026-33210
+
 ## 2.0.0
 
 * Update geminabox 3.0.0
