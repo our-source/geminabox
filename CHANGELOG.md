@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.2
+
+* Update puma to 8.0.1
+* Update rack-session CVE-2026-39324
+
 ## 2.0.1
 
 * Update json CVE-2026-33210
