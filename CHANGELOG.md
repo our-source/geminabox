@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.0
+
+* Update geminabox 3.1.0
+* Update puma to 8.0.2
+
 ## 2.0.2
 
 * Update puma to 8.0.1
