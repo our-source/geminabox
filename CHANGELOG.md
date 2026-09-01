@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.1
+
+* Update depends solving json CVE-2026-71847
+
 ## 2.1.0
 
 * Update geminabox 3.1.0
